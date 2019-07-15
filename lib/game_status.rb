@@ -51,20 +51,14 @@ end
 
 def winner?(board)
   won?(board) = pete
-  if board[pete]
+  if board[pete[0]] == "X"
+    return "X"
+  else if board[pete[0]] == "O"
+    return "O"
+  else 
+    return nil 
+  end
 end 
 
-
-
-
-
-
-
-        
-        
-        
-        
-        
-        
-        
-        
+  
+  
