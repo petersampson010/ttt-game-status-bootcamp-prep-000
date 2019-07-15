@@ -49,7 +49,7 @@ def over?(board)
   end 
 end 
 
-def winner?(board)
+def winner(board)
   pete = []
   won?(board) = pete
   if board[pete[0]] == "X"
