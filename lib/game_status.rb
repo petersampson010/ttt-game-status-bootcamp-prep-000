@@ -50,6 +50,7 @@ def over?(board)
 end 
 
 def winner?(board)
+  pete = []
   won?(board) = pete
   if board[pete[0]] == "X"
     return "X"
