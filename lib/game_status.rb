@@ -50,8 +50,8 @@ def over?(board)
 end 
 
 def winner?(board)
-  won?(board)
-  return combo[0]
+  won?(board) = pete
+  if pete
 end 
 
 
