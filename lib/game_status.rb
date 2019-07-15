@@ -50,15 +50,12 @@ def over?(board)
 end 
 
 def winner(board)
-  
-  if board[pete[0]] == "X"
+  if won?(board)[0] == "X"
     return "X"
-  else if board[pete[0]] == "O"
+  else if won?(board)[0] == "O"
     return "O"
   else 
     return nil 
-  end
+  end 
 end 
 
-  
-  
