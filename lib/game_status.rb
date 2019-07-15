@@ -50,12 +50,12 @@ def over?(board)
 end 
 
 def winner(board)
-  index = []
-  index = won?(board)
-  if index == false 
+  new_array = []
+  new_array = won?(board)
+  if new_array == false 
     return nil 
   else 
-    if board[index[0]] == "X"
+    if board[new_array[0]] == "X"
       return "X"
     else 
       return "O"
