@@ -51,12 +51,14 @@ end
 
 def winner(board)
   won?(board)
-  if combo[0] == "X"
+  if board[combo[0]] == "X"
     return "X"
-  else if combo[0] == "O"
+  else if board[combo[0]] == "O"
     return "O"
   else 
     return nil 
   end 
 end 
+
+
 
