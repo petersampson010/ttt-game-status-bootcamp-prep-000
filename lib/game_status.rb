@@ -50,9 +50,10 @@ def over?(board)
 end 
 
 def winner(board)
-  if won?(board)[0] == "X"
+  won?(board)
+  if combo[0] == "X"
     return "X"
-  else if won?(board)[0] == "O"
+  else if combo[0] == "O"
     return "O"
   else 
     return nil 
