@@ -30,13 +30,7 @@ WIN_COMBINATIONS = [
 end 
 
 def full?(board)
-  board.each do |i|
-    if i.all? == "X" || "O"
-      return true 
-    else 
-      return false 
-    end 
-  end 
+  board.all?
 end 
 
 def draw?(board)
