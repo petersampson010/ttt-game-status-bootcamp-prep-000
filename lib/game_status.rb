@@ -49,6 +49,19 @@ def over?(board)
   end 
 end 
 
+def winner?(board)
+  won?(board)
+  if combo[1] == "X"
+    return "X"
+  else 
+    return "O"
+  end 
+end 
+
+
+
+
+
 
 
         
