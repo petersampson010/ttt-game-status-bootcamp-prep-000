@@ -30,7 +30,7 @@ WIN_COMBINATIONS = [
 end 
 
 def full?(board)
-  board.all?
+  board.all?{|i| i == "X" || i == "O"}
 end 
 
 def draw?(board)
